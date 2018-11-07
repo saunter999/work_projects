@@ -1,0 +1,52 @@
+Calculating G0 in (r,tau space) on discrete mesh
+Done~
+Occupation number of H0 per spin is:
+0.620573208479
+
+calculating Grand potential for H0...
+
+calculating Grand potential correction at order 1
+
+calculating Grand potential correction at order 2
+Nitt= 1000000
+-----------------------------
+number of N0|| number of N1|| sum of these two||
+21961.0 ( 0.441436008764 ) 27788.0 ( 0.558563991236 ) 49749.0
+acceptance rate is: 0.08315 0.08315
+0.37968602384 0.379600200355 0.144128890722 -0.288257781443
+Nitt= 14333333
+-----------------------------
+number of N0|| number of N1|| sum of these two||
+319667.0 ( 0.446203044041 ) 396749.0 ( 0.553796955959 ) 716416.0
+acceptance rate is: 0.0839780252088 0.0839779554413
+0.365960559228 0.372339653452 0.1362616278 -0.2725232556
+Nitt= 27666666
+-----------------------------
+number of N0|| number of N1|| sum of these two||
+610965.0 ( 0.441741385007 ) 772118.0 ( 0.558258614993 ) 1383083.0
+acceptance rate is: 0.0831510381482 0.0831510020036
+0.361345631462 0.379130392085 0.136997110934 -0.273994221869
+Nitt= 40999999
+-----------------------------
+number of N0|| number of N1|| sum of these two||
+914739.0 ( 0.446268787056 ) 1135010.0 ( 0.553731212944 ) 2049749.0
+acceptance rate is: 0.0839890752192 0.083989050829
+0.376305098819 0.372240606337 0.140076038152 -0.280152076304
+Nitt= 54333332
+-----------------------------
+number of N0|| number of N1|| sum of these two||
+1210946.0 ( 0.445788126708 ) 1505470.0 ( 0.554211873292 ) 2716416.0
+acceptance rate is: 0.0839073333474 0.0839073333474
+0.36194161719 0.372965433636 0.134991712206 -0.269983424412
+Nitt= 67666665
+-----------------------------
+number of N0|| number of N1|| sum of these two||
+1505240.0 ( 0.444931442711 ) 1877843.0 ( 0.555068557289 ) 3383083.0
+acceptance rate is: 0.0837691646249 0.0837691498465
+0.36701878139 0.374261180941 0.137360882551 -0.274721765101
+
+Grand canonical potential order by order is 
+[-2.26698074  0.77022221 -0.27472177]
+
+Total canonical poetential is
+-1.77148028775

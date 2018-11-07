@@ -1,0 +1,106 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725439
+JOB_NAME  =  testD3
+QUEUE     =  wp15
+NSLOTS    =  60
+NHOSTS    =  4
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun
+
+EXE_HOST  =  n188
+EXE_DIR   =  /mnt/n188
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/725439.1.wp15
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20439
+rcp: /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun/U5: not a plain file
+rcp: /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun/test: not a plain file
+Failure to rcp files!
+
+Your job started at Wed Jul 26 21:57:07 EDT 2017 on host n188 in /mnt/n188/725439qhan
+Submission directory is /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n188/active_jobs/725439.1/pe_hostfile /opt/mpich2/intel/14.0/
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n191
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n189
+n189
+n189
+n189
+n189
+n189
+n189
+n189
+n189
+n189
+n189
+n189
+startmpich2.sh: check for smpd daemons (1 of 10)
+rsh n188 /opt/mpich2/intel/14.0//bin/smpd -port 20439 -d 0
+rsh n191 /opt/mpich2/intel/14.0//bin/smpd -port 20439 -d 0
+rsh n193 /opt/mpich2/intel/14.0//bin/smpd -port 20439 -d 0
+rsh n189 /opt/mpich2/intel/14.0//bin/smpd -port 20439 -d 0
+startmpich2.sh: missing smpd on n188
+startmpich2.sh: missing smpd on n191
+startmpich2.sh: missing smpd on n193
+startmpich2.sh: missing smpd on n189
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n188
+startmpich2.sh: found running smpd on n191
+startmpich2.sh: found running smpd on n193
+startmpich2.sh: found running smpd on n189
+startmpich2.sh: got all 4 of 4 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Wed Jul 26 22:24:23 EDT 2017

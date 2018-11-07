@@ -1,0 +1,138 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725312
+JOB_NAME  =  test-0.2
+QUEUE     =  wp04
+NSLOTS    =  50
+NHOSTS    =  7
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=1
+
+EXE_HOST  =  n55
+NFS_HOST  =  caip02s
+EXE_DIR   =  /mnt/p02
+OUT_DIR   =  /tmp
+TMP_DIR   =  /tmp/725312.1.wp04
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20312
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=1/mu-1.6: not a plain file
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=1/mu-1.8: not a plain file
+Failure to rcp files!
+
+Your job started at Tue Jul 25 14:52:06 EDT 2017 on host n55 in /mnt/p02/725312qhan
+Submission directory is /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=1 on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n55/active_jobs/725312.1/pe_hostfile /opt/mpich2/intel/14.0/
+n55
+n55
+n55
+n55
+n55
+n55
+n55
+n55
+n42
+n42
+n42
+n42
+n42
+n42
+n42
+n42
+n73
+n73
+n73
+n73
+n73
+n73
+n73
+n73
+n62
+n62
+n62
+n62
+n62
+n62
+n62
+n62
+n50
+n50
+n50
+n50
+n50
+n50
+n50
+n50
+n54
+n54
+n54
+n54
+n54
+n54
+n54
+n54
+n61
+n61
+startmpich2.sh: check for smpd daemons (1 of 10)
+rsh n55 /opt/mpich2/intel/14.0//bin/smpd -port 20312 -d 0
+rsh n42 /opt/mpich2/intel/14.0//bin/smpd -port 20312 -d 0
+rsh n73 /opt/mpich2/intel/14.0//bin/smpd -port 20312 -d 0
+rsh n62 /opt/mpich2/intel/14.0//bin/smpd -port 20312 -d 0
+rsh n50 /opt/mpich2/intel/14.0//bin/smpd -port 20312 -d 0
+rsh n54 /opt/mpich2/intel/14.0//bin/smpd -port 20312 -d 0
+rsh n61 /opt/mpich2/intel/14.0//bin/smpd -port 20312 -d 0
+startmpich2.sh: missing smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n54
+startmpich2.sh: found running smpd on n61
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n54
+startmpich2.sh: found running smpd on n61
+startmpich2.sh: check for smpd daemons (3 of 10)
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n54
+startmpich2.sh: found running smpd on n61
+startmpich2.sh: check for smpd daemons (4 of 10)
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n54
+startmpich2.sh: found running smpd on n61
+startmpich2.sh: check for smpd daemons (5 of 10)
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n54
+startmpich2.sh: found running smpd on n61
+startmpich2.sh: check for smpd daemons (6 of 10)
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: found running smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n54
+startmpich2.sh: found running smpd on n61
+startmpich2.sh: got all 7 of 7 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Tue Jul 25 15:52:04 EDT 2017

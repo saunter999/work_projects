@@ -1,0 +1,612 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  724665
+JOB_NAME  =  test-c
+QUEUE     =  wp10
+NSLOTS    =  70
+NHOSTS    =  6
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/plaquette-DMFT
+
+EXE_HOST  =  n147
+NFS_HOST  =  n147
+EXE_DIR   =  /mnt/n147
+OUT_DIR   =  /tmp
+TMP_DIR   =  /tmp/724665.1.wp10
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  24665
+rcp: /mnt/wk06/qhan/plaquette-DMFT/724640qhan: not a plain file
+rcp: /mnt/wk06/qhan/plaquette-DMFT/724648qhan: not a plain file
+rcp: /mnt/wk06/qhan/plaquette-DMFT/724657qhan: not a plain file
+Failure to rcp files!
+
+Your job started at Tue Jul 11 17:49:20 EDT 2017 on host n147 in /mnt/n147/724665qhan
+Submission directory is /mnt/wk06/qhan/plaquette-DMFT on host rupc08
+-----------------------------------------------------------------------------------------
++ echo -catch_rsh /opt/sge6/spool/n147/active_jobs/724665.1/pe_hostfile /opt/mpich2/intel/14.0/
+-catch_rsh /opt/sge6/spool/n147/active_jobs/724665.1/pe_hostfile /opt/mpich2/intel/14.0/
++ SLEEPTIME=5
++ RETRIES=10
++ catch_rsh=0
++ catch_hostname=0
++ '[' 3 -gt 0 ']'
++ case "$1" in
++ catch_rsh=1
++ shift
++ '[' 2 -gt 0 ']'
++ case "$1" in
++ break
+++ basename /opt/sge6/mpich2_smpd/startmpich2.sh
++ me=startmpich2.sh
++ '[' 2 -lt 2 ']'
++ pe_hostfile=/opt/sge6/spool/n147/active_jobs/724665.1/pe_hostfile
++ MPICH2_ROOT=/opt/mpich2/intel/14.0/
++ export MPICH2_ROOT
++ '[' '!' -x /opt/sge6/mpich2_smpd/bin/lx26-amd64/start_mpich2 ']'
++ '[' '!' -x /opt/mpich2/intel/14.0//bin/smpd ']'
++ '[' '!' -r /opt/sge6/spool/n147/active_jobs/724665.1/pe_hostfile ']'
++ machines=/tmp/724665.1.wp10/machines
++ PeHostfile2MachineFile /opt/sge6/spool/n147/active_jobs/724665.1/pe_hostfile
++ cat /opt/sge6/spool/n147/active_jobs/724665.1/pe_hostfile
++ read line
+++ echo n147 12 wp10@n147 UNDEFINED
+++ cut -f1 '-d '
+++ cut -f1 -d.
++ host=n147
+++ echo n147 12 wp10@n147 UNDEFINED
+++ cut -f2 '-d '
++ nslots=12
++ i=1
++ '[' 1 -le 12 ']'
++ echo n147
+++ expr 1 + 1
++ i=2
++ '[' 2 -le 12 ']'
++ echo n147
+++ expr 2 + 1
++ i=3
++ '[' 3 -le 12 ']'
++ echo n147
+++ expr 3 + 1
++ i=4
++ '[' 4 -le 12 ']'
++ echo n147
+++ expr 4 + 1
++ i=5
++ '[' 5 -le 12 ']'
++ echo n147
+++ expr 5 + 1
++ i=6
++ '[' 6 -le 12 ']'
++ echo n147
+++ expr 6 + 1
++ i=7
++ '[' 7 -le 12 ']'
++ echo n147
+++ expr 7 + 1
++ i=8
++ '[' 8 -le 12 ']'
++ echo n147
+++ expr 8 + 1
++ i=9
++ '[' 9 -le 12 ']'
++ echo n147
+++ expr 9 + 1
++ i=10
++ '[' 10 -le 12 ']'
++ echo n147
+++ expr 10 + 1
++ i=11
++ '[' 11 -le 12 ']'
++ echo n147
+++ expr 11 + 1
++ i=12
++ '[' 12 -le 12 ']'
++ echo n147
+++ expr 12 + 1
++ i=13
++ '[' 13 -le 12 ']'
++ read line
+++ echo n143 12 wp10@n143 UNDEFINED
+++ cut -f1 '-d '
+++ cut -f1 -d.
++ host=n143
+++ echo n143 12 wp10@n143 UNDEFINED
+++ cut -f2 '-d '
++ nslots=12
++ i=1
++ '[' 1 -le 12 ']'
++ echo n143
+++ expr 1 + 1
++ i=2
++ '[' 2 -le 12 ']'
++ echo n143
+++ expr 2 + 1
++ i=3
++ '[' 3 -le 12 ']'
++ echo n143
+++ expr 3 + 1
++ i=4
++ '[' 4 -le 12 ']'
++ echo n143
+++ expr 4 + 1
++ i=5
++ '[' 5 -le 12 ']'
++ echo n143
+++ expr 5 + 1
++ i=6
++ '[' 6 -le 12 ']'
++ echo n143
+++ expr 6 + 1
++ i=7
++ '[' 7 -le 12 ']'
++ echo n143
+++ expr 7 + 1
++ i=8
++ '[' 8 -le 12 ']'
++ echo n143
+++ expr 8 + 1
++ i=9
++ '[' 9 -le 12 ']'
++ echo n143
+++ expr 9 + 1
++ i=10
++ '[' 10 -le 12 ']'
++ echo n143
+++ expr 10 + 1
++ i=11
++ '[' 11 -le 12 ']'
++ echo n143
+++ expr 11 + 1
++ i=12
++ '[' 12 -le 12 ']'
++ echo n143
+++ expr 12 + 1
++ i=13
++ '[' 13 -le 12 ']'
++ read line
+++ echo n153 12 wp10@n153 UNDEFINED
+++ cut -f1 '-d '
+++ cut -f1 -d.
++ host=n153
+++ echo n153 12 wp10@n153 UNDEFINED
+++ cut -f2 '-d '
++ nslots=12
++ i=1
++ '[' 1 -le 12 ']'
++ echo n153
+++ expr 1 + 1
++ i=2
++ '[' 2 -le 12 ']'
++ echo n153
+++ expr 2 + 1
++ i=3
++ '[' 3 -le 12 ']'
++ echo n153
+++ expr 3 + 1
++ i=4
++ '[' 4 -le 12 ']'
++ echo n153
+++ expr 4 + 1
++ i=5
++ '[' 5 -le 12 ']'
++ echo n153
+++ expr 5 + 1
++ i=6
++ '[' 6 -le 12 ']'
++ echo n153
+++ expr 6 + 1
++ i=7
++ '[' 7 -le 12 ']'
++ echo n153
+++ expr 7 + 1
++ i=8
++ '[' 8 -le 12 ']'
++ echo n153
+++ expr 8 + 1
++ i=9
++ '[' 9 -le 12 ']'
++ echo n153
+++ expr 9 + 1
++ i=10
++ '[' 10 -le 12 ']'
++ echo n153
+++ expr 10 + 1
++ i=11
++ '[' 11 -le 12 ']'
++ echo n153
+++ expr 11 + 1
++ i=12
++ '[' 12 -le 12 ']'
++ echo n153
+++ expr 12 + 1
++ i=13
++ '[' 13 -le 12 ']'
++ read line
+++ echo n152 12 wp10@n152 UNDEFINED
+++ cut -f1 '-d '
+++ cut -f1 -d.
++ host=n152
+++ echo n152 12 wp10@n152 UNDEFINED
+++ cut -f2 '-d '
++ nslots=12
++ i=1
++ '[' 1 -le 12 ']'
++ echo n152
+++ expr 1 + 1
++ i=2
++ '[' 2 -le 12 ']'
++ echo n152
+++ expr 2 + 1
++ i=3
++ '[' 3 -le 12 ']'
++ echo n152
+++ expr 3 + 1
++ i=4
++ '[' 4 -le 12 ']'
++ echo n152
+++ expr 4 + 1
++ i=5
++ '[' 5 -le 12 ']'
++ echo n152
+++ expr 5 + 1
++ i=6
++ '[' 6 -le 12 ']'
++ echo n152
+++ expr 6 + 1
++ i=7
++ '[' 7 -le 12 ']'
++ echo n152
+++ expr 7 + 1
++ i=8
++ '[' 8 -le 12 ']'
++ echo n152
+++ expr 8 + 1
++ i=9
++ '[' 9 -le 12 ']'
++ echo n152
+++ expr 9 + 1
++ i=10
++ '[' 10 -le 12 ']'
++ echo n152
+++ expr 10 + 1
++ i=11
++ '[' 11 -le 12 ']'
++ echo n152
+++ expr 11 + 1
++ i=12
++ '[' 12 -le 12 ']'
++ echo n152
+++ expr 12 + 1
++ i=13
++ '[' 13 -le 12 ']'
++ read line
+++ echo n164 12 wp10@n164 UNDEFINED
+++ cut -f1 '-d '
+++ cut -f1 -d.
++ host=n164
+++ echo n164 12 wp10@n164 UNDEFINED
+++ cut -f2 '-d '
++ nslots=12
++ i=1
++ '[' 1 -le 12 ']'
++ echo n164
+++ expr 1 + 1
++ i=2
++ '[' 2 -le 12 ']'
++ echo n164
+++ expr 2 + 1
++ i=3
++ '[' 3 -le 12 ']'
++ echo n164
+++ expr 3 + 1
++ i=4
++ '[' 4 -le 12 ']'
++ echo n164
+++ expr 4 + 1
++ i=5
++ '[' 5 -le 12 ']'
++ echo n164
+++ expr 5 + 1
++ i=6
++ '[' 6 -le 12 ']'
++ echo n164
+++ expr 6 + 1
++ i=7
++ '[' 7 -le 12 ']'
++ echo n164
+++ expr 7 + 1
++ i=8
++ '[' 8 -le 12 ']'
++ echo n164
+++ expr 8 + 1
++ i=9
++ '[' 9 -le 12 ']'
++ echo n164
+++ expr 9 + 1
++ i=10
++ '[' 10 -le 12 ']'
++ echo n164
+++ expr 10 + 1
++ i=11
++ '[' 11 -le 12 ']'
++ echo n164
+++ expr 11 + 1
++ i=12
++ '[' 12 -le 12 ']'
++ echo n164
+++ expr 12 + 1
++ i=13
++ '[' 13 -le 12 ']'
++ read line
+++ echo n146 10 wp10@n146 UNDEFINED
+++ cut -f1 '-d '
+++ cut -f1 -d.
++ host=n146
+++ echo n146 10 wp10@n146 UNDEFINED
+++ cut -f2 '-d '
++ nslots=10
++ i=1
++ '[' 1 -le 10 ']'
++ echo n146
+++ expr 1 + 1
++ i=2
++ '[' 2 -le 10 ']'
++ echo n146
+++ expr 2 + 1
++ i=3
++ '[' 3 -le 10 ']'
++ echo n146
+++ expr 3 + 1
++ i=4
++ '[' 4 -le 10 ']'
++ echo n146
+++ expr 4 + 1
++ i=5
++ '[' 5 -le 10 ']'
++ echo n146
+++ expr 5 + 1
++ i=6
++ '[' 6 -le 10 ']'
++ echo n146
+++ expr 6 + 1
++ i=7
++ '[' 7 -le 10 ']'
++ echo n146
+++ expr 7 + 1
++ i=8
++ '[' 8 -le 10 ']'
++ echo n146
+++ expr 8 + 1
++ i=9
++ '[' 9 -le 10 ']'
++ echo n146
+++ expr 9 + 1
++ i=10
++ '[' 10 -le 10 ']'
++ echo n146
+++ expr 10 + 1
++ i=11
++ '[' 11 -le 10 ']'
++ read line
++ cat /tmp/724665.1.wp10/machines
+n147
+n147
+n147
+n147
+n147
+n147
+n147
+n147
+n147
+n147
+n147
+n147
+n143
+n143
+n143
+n143
+n143
+n143
+n143
+n143
+n143
+n143
+n143
+n143
+n153
+n153
+n153
+n153
+n153
+n153
+n153
+n153
+n153
+n153
+n153
+n153
+n152
+n152
+n152
+n152
+n152
+n152
+n152
+n152
+n152
+n152
+n152
+n152
+n164
+n164
+n164
+n164
+n164
+n164
+n164
+n164
+n164
+n164
+n164
+n164
+n146
+n146
+n146
+n146
+n146
+n146
+n146
+n146
+n146
+n146
++ '[' 1 = 1 ']'
++ rsh_wrapper=/opt/sge6/mpich2_smpd/rsh
++ '[' '!' -x /opt/sge6/mpich2_smpd/rsh ']'
++ rshcmd=rsh
++ case "$ARC" in
++ ln -s /opt/sge6/mpich2_smpd/rsh /tmp/724665.1.wp10/rsh
++ hash -r
++ '[' 0 = 1 ']'
++ port=24665
+++ cat /tmp/724665.1.wp10/machines
+++ uniq
++ for host in '`cat $machines | uniq`'
++ /opt/sge6/mpich2_smpd/bin/lx26-amd64/start_mpich2 -n n147 /opt/mpich2/intel/14.0//bin/smpd 24665
++ for host in '`cat $machines | uniq`'
++ /opt/sge6/mpich2_smpd/bin/lx26-amd64/start_mpich2 -n n143 /opt/mpich2/intel/14.0//bin/smpd 24665
++ for host in '`cat $machines | uniq`'
++ /opt/sge6/mpich2_smpd/bin/lx26-amd64/start_mpich2 -n n153 /opt/mpich2/intel/14.0//bin/smpd 24665
++ for host in '`cat $machines | uniq`'
++ /opt/sge6/mpich2_smpd/bin/lx26-amd64/start_mpich2 -n n152 /opt/mpich2/intel/14.0//bin/smpd 24665
++ for host in '`cat $machines | uniq`'
++ /opt/sge6/mpich2_smpd/bin/lx26-amd64/start_mpich2 -n n164 /opt/mpich2/intel/14.0//bin/smpd 24665
++ for host in '`cat $machines | uniq`'
++ /opt/sge6/mpich2_smpd/bin/lx26-amd64/start_mpich2 -n n146 /opt/mpich2/intel/14.0//bin/smpd 24665
++ actual_retry=1
++ '[' 1 -le 10 ']'
++ echo 'startmpich2.sh: check for smpd daemons (1 of 10)'
+startmpich2.sh: check for smpd daemons (1 of 10)
++ numhosts=0
+++ cat /tmp/724665.1.wp10/machines
+rsh n147 /opt/mpich2/intel/14.0//bin/smpd -port 24665 -d 0
+++ uniq
+rsh n143 /opt/mpich2/intel/14.0//bin/smpd -port 24665 -d 0
++ for host in '`cat $machines | uniq`'
+rsh n153 /opt/mpich2/intel/14.0//bin/smpd -port 24665 -d 0
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n147
+++ head -n 1
+++ cut -f 1 -d ' '
+rsh n152 /opt/mpich2/intel/14.0//bin/smpd -port 24665 -d 0
+rsh n164 /opt/mpich2/intel/14.0//bin/smpd -port 24665 -d 0
+rsh n146 /opt/mpich2/intel/14.0//bin/smpd -port 24665 -d 0
++ '[' no == smpd ']'
++ echo 'startmpich2.sh: missing smpd on n147'
+startmpich2.sh: missing smpd on n147
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n143
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' no == smpd ']'
++ echo 'startmpich2.sh: missing smpd on n143'
+startmpich2.sh: missing smpd on n143
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n153
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' no == smpd ']'
++ echo 'startmpich2.sh: missing smpd on n153'
+startmpich2.sh: missing smpd on n153
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n152
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' no == smpd ']'
++ echo 'startmpich2.sh: missing smpd on n152'
+startmpich2.sh: missing smpd on n152
++ for host in '`cat $machines | uniq`'
+++ head -n 1
+++ cut -f 1 -d ' '
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n164
++ '[' no == smpd ']'
++ echo 'startmpich2.sh: missing smpd on n164'
+startmpich2.sh: missing smpd on n164
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n146
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' no == smpd ']'
++ echo 'startmpich2.sh: missing smpd on n146'
+startmpich2.sh: missing smpd on n146
++ '[' 6 -eq 0 ']'
++ sleep 5
++ (( actual_retry += 1 ))
++ '[' 2 -le 10 ']'
++ echo 'startmpich2.sh: check for smpd daemons (2 of 10)'
+startmpich2.sh: check for smpd daemons (2 of 10)
++ numhosts=0
+++ cat /tmp/724665.1.wp10/machines
+++ uniq
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n147
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' smpd == smpd ']'
++ (( numhosts += 1 ))
++ echo 'startmpich2.sh: found running smpd on n147'
+startmpich2.sh: found running smpd on n147
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n143
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' smpd == smpd ']'
++ (( numhosts += 1 ))
++ echo 'startmpich2.sh: found running smpd on n143'
+startmpich2.sh: found running smpd on n143
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n153
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' smpd == smpd ']'
++ (( numhosts += 1 ))
++ echo 'startmpich2.sh: found running smpd on n153'
+startmpich2.sh: found running smpd on n153
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n152
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' smpd == smpd ']'
++ (( numhosts += 1 ))
++ echo 'startmpich2.sh: found running smpd on n152'
+startmpich2.sh: found running smpd on n152
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n164
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' smpd == smpd ']'
++ (( numhosts += 1 ))
++ echo 'startmpich2.sh: found running smpd on n164'
+startmpich2.sh: found running smpd on n164
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24665 -status n146
+++ head -n 1
+++ cut -f 1 -d ' '
++ '[' smpd == smpd ']'
++ (( numhosts += 1 ))
++ echo 'startmpich2.sh: found running smpd on n146'
+startmpich2.sh: found running smpd on n146
++ '[' 6 -eq 6 ']'
++ echo 'startmpich2.sh: got all 6 of 6 nodes'
+startmpich2.sh: got all 6 of 6 nodes
++ exit 0
+Have HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1
+Number of operators needed 0
+Reading data with 2000 entriesHave HB1
+Number of operators needed 0
+Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entriesHave HB1Number of operators needed Reading data with 2000 entries-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Tue Jul 11 20:29:20 EDT 2017

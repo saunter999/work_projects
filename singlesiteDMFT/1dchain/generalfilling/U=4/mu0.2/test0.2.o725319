@@ -1,0 +1,106 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725319
+JOB_NAME  =  test0.2
+QUEUE     =  wp04
+NSLOTS    =  50
+NHOSTS    =  7
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4
+
+EXE_HOST  =  n75
+NFS_HOST  =  caip02s
+EXE_DIR   =  /mnt/p02
+OUT_DIR   =  /tmp
+TMP_DIR   =  /tmp/725319.1.wp04
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20319
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/mu-1.4: not a plain file
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/mu-1.8: not a plain file
+Failure to rcp files!
+
+Your job started at Tue Jul 25 15:52:20 EDT 2017 on host n75 in /mnt/p02/725319qhan
+Submission directory is /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4 on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n75/active_jobs/725319.1/pe_hostfile /opt/mpich2/intel/14.0/
+n75
+n75
+n75
+n75
+n75
+n75
+n75
+n75
+n58
+n58
+n58
+n58
+n58
+n58
+n58
+n58
+n67
+n67
+n67
+n67
+n67
+n67
+n67
+n67
+n63
+n63
+n63
+n63
+n63
+n63
+n63
+n63
+n51
+n51
+n51
+n51
+n51
+n51
+n51
+n51
+n76
+n76
+n76
+n76
+n76
+n76
+n60
+n60
+n60
+n60
+startmpich2.sh: check for smpd daemons (1 of 10)
+startmpich2.sh: missing smpd on n75
+rsh n76 /opt/mpich2/intel/14.0//bin/smpd -port 20319 -d 0
+rsh n75 /opt/mpich2/intel/14.0//bin/smpd -port 20319 -d 0
+rsh n67 /opt/mpich2/intel/14.0//bin/smpd -port 20319 -d 0
+rsh n58 /opt/mpich2/intel/14.0//bin/smpd -port 20319 -d 0
+rsh n51 /opt/mpich2/intel/14.0//bin/smpd -port 20319 -d 0
+startmpich2.sh: missing smpd on n58
+rsh n63 /opt/mpich2/intel/14.0//bin/smpd -port 20319 -d 0
+rsh n60 /opt/mpich2/intel/14.0//bin/smpd -port 20319 -d 0
+startmpich2.sh: missing smpd on n67
+startmpich2.sh: missing smpd on n63
+startmpich2.sh: missing smpd on n51
+startmpich2.sh: missing smpd on n76
+startmpich2.sh: missing smpd on n60
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n75
+startmpich2.sh: found running smpd on n58
+startmpich2.sh: found running smpd on n67
+startmpich2.sh: found running smpd on n63
+startmpich2.sh: found running smpd on n51
+startmpich2.sh: found running smpd on n76
+startmpich2.sh: found running smpd on n60
+startmpich2.sh: got all 7 of 7 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Tue Jul 25 16:29:45 EDT 2017

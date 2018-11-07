@@ -1,0 +1,111 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725336
+JOB_NAME  =  test1.0
+QUEUE     =  wp04
+NSLOTS    =  50
+NHOSTS    =  7
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4
+
+EXE_HOST  =  n73
+NFS_HOST  =  caip02s
+EXE_DIR   =  /mnt/p02
+OUT_DIR   =  /tmp
+TMP_DIR   =  /tmp/725336.1.wp04
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20336
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/mu-0.2: not a plain file
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/mu-0.8: not a plain file
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/mu-1.2: not a plain file
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/mu-1.4: not a plain file
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/mu-1.8: not a plain file
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/mu0.2: not a plain file
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/mu1.9: not a plain file
+Failure to rcp files!
+
+Your job started at Tue Jul 25 17:13:05 EDT 2017 on host n73 in /mnt/p02/725336qhan
+Submission directory is /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4 on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n73/active_jobs/725336.1/pe_hostfile /opt/mpich2/intel/14.0/
+n73
+n73
+n73
+n73
+n73
+n73
+n73
+n73
+n62
+n62
+n62
+n62
+n62
+n62
+n62
+n62
+n50
+n50
+n50
+n50
+n50
+n50
+n50
+n50
+n54
+n54
+n54
+n54
+n54
+n54
+n54
+n54
+n49
+n49
+n49
+n49
+n49
+n49
+n49
+n49
+n44
+n44
+n44
+n44
+n44
+n44
+n44
+n44
+n53
+n53
+startmpich2.sh: check for smpd daemons (1 of 10)
+rsh n73 /opt/mpich2/intel/14.0//bin/smpd -port 20336 -d 0
+rsh n54 /opt/mpich2/intel/14.0//bin/smpd -port 20336 -d 0
+rsh n50 /opt/mpich2/intel/14.0//bin/smpd -port 20336 -d 0
+rsh n62 /opt/mpich2/intel/14.0//bin/smpd -port 20336 -d 0
+rsh n49 /opt/mpich2/intel/14.0//bin/smpd -port 20336 -d 0
+rsh n44 /opt/mpich2/intel/14.0//bin/smpd -port 20336 -d 0
+rsh n53 /opt/mpich2/intel/14.0//bin/smpd -port 20336 -d 0
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: missing smpd on n62
+startmpich2.sh: missing smpd on n50
+startmpich2.sh: missing smpd on n54
+startmpich2.sh: missing smpd on n49
+startmpich2.sh: missing smpd on n44
+startmpich2.sh: missing smpd on n53
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n54
+startmpich2.sh: found running smpd on n49
+startmpich2.sh: found running smpd on n44
+startmpich2.sh: found running smpd on n53
+startmpich2.sh: got all 7 of 7 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Tue Jul 25 17:57:33 EDT 2017

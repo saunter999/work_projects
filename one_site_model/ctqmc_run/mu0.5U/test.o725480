@@ -1,0 +1,56 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725480
+JOB_NAME  =  test
+QUEUE     =  wp15
+NSLOTS    =  16
+NHOSTS    =  1
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/one_site_model/ctqmc_run
+
+EXE_HOST  =  n193
+EXE_DIR   =  /scratch
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/725480.1.wp15
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20480
+rcp: /mnt/wk06/qhan/projects/one_site_model/ctqmc_run/mu0: not a plain file
+rcp: /mnt/wk06/qhan/projects/one_site_model/ctqmc_run/mu_0.5U: not a plain file
+Failure to rcp files!
+
+Your job started at Thu Jul 27 15:23:37 EDT 2017 on host n193 in /scratch/725480qhan
+Submission directory is /mnt/wk06/qhan/projects/one_site_model/ctqmc_run on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/core/spool/n193/active_jobs/725480.1/pe_hostfile /opt/mpich2/intel/14.0/
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+n193
+startmpich2.sh: check for smpd daemons (1 of 10)
+rsh n193 /opt/mpich2/intel/14.0//bin/smpd -port 20480 -d 0
+startmpich2.sh: missing smpd on n193
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n193
+startmpich2.sh: got all 1 of 1 nodes
+Have HB2
+Number of operators needed 0  0
+Reading data with 2000 entries
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Thu Jul 27 15:26:43 EDT 2017

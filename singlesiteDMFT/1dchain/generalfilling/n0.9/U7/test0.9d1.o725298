@@ -1,0 +1,103 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725298
+JOB_NAME  =  test0.9d1
+QUEUE     =  wp15
+NSLOTS    =  60
+NHOSTS    =  4
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/n0.9
+
+EXE_HOST  =  n186
+EXE_DIR   =  /mnt/n186
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/725298.1.wp15
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20298
+
+Your job started at Tue Jul 25 12:51:22 EDT 2017 on host n186 in /mnt/n186/725298qhan
+Submission directory is /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/n0.9 on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n186/active_jobs/725298.1/pe_hostfile /opt/mpich2/intel/14.0/
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n186
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+startmpich2.sh: check for smpd daemons (1 of 10)
+startmpich2.sh: missing smpd on n186
+startmpich2.sh: missing smpd on n187
+startmpich2.sh: missing smpd on n194
+rsh n194 /opt/mpich2/intel/14.0//bin/smpd -port 20298 -d 0
+rsh n192 /opt/mpich2/intel/14.0//bin/smpd -port 20298 -d 0
+rsh n187 /opt/mpich2/intel/14.0//bin/smpd -port 20298 -d 0
+rsh n186 /opt/mpich2/intel/14.0//bin/smpd -port 20298 -d 0
+startmpich2.sh: missing smpd on n192
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n186
+startmpich2.sh: found running smpd on n187
+startmpich2.sh: found running smpd on n194
+startmpich2.sh: found running smpd on n192
+startmpich2.sh: got all 4 of 4 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Tue Jul 25 13:10:08 EDT 2017

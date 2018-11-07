@@ -1,0 +1,28 @@
+#!/bin/bash
+#set -x
+########################################################################
+# SUN Grid Engine job wrapper
+# parallel job on opteron queue
+########################################################################
+#$ -N test
+#$ -pe ompi 60
+#$ -q wp08
+#$ -j y
+#$ -M qhan@physics.rutgers.edu
+#$ -m e
+#$ -v WIEN_DMFT_ROOT,WIENROOT,LD_LIBRARY_PATH,PATH
+########################################################################
+# DON'T remove the following line!
+source $TMPDIR/sge_init.sh
+########################################################################
+export SMPD_OPTION_NO_DYNAMIC_HOSTS=1
+
+export PATH=.:$PATH
+export PYTHONPATH=$PYTHONPATH:.:/usr/local/lib64/python2.7/site-packages/:$WIEN_DMFT_ROOT
+
+mpi_prefix="/opt/ompi/gnu/bin/mpirun -np $NSLOTS  "
+
+echo $mpi_prefix > mpi_prefix.dat
+
+##$mpi_prefix /usr/bin/python bcast.py > nohup.dat
+$mpi_prefix /usr/bin/python send_receive.py > nohup.dat

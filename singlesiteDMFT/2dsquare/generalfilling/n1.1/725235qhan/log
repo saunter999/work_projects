@@ -1,0 +1,145 @@
+create mpi_prefix.
+0th iteration
+Starting from non-interacting limit
+Calculating Delta_nonint
+creating /tmp/725235.1.wp04/scipy-qhan-CNkKqB/python27_intermediate/compiler_9ae91e595621014a1f7e70f387dfa0e8
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_58793b841372ad3a54747534137788692.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_58793b841372ad3a54747534137788692.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771147.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771147.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771152.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771152.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771159.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771159.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771165.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771165.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771171.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771171.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771178.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771178.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771183.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771183.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771186.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771186.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771189.cpp:23:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array-impl.h:37:0,
+                 from /usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/array.h:26,
+                 from /home/qhan/.cache/scipy/python27_compiled/sc_e229f08204ac3c7cf8bcac7c9dadf771189.cpp:11:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h: In member function ‘bool blitz::Range::isAscendingContiguous() const’:
+/usr/lib64/python2.7/site-packages/scipy/weave/blitz/blitz/range.h:120:34: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         return ((first_ < last_) && (stride_ == 1) || (first_ == last_));
+                                  ^

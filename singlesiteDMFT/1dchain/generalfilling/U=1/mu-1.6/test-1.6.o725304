@@ -1,0 +1,93 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725304
+JOB_NAME  =  test-1.6
+QUEUE     =  wp15
+NSLOTS    =  50
+NHOSTS    =  4
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=1
+
+EXE_HOST  =  n194
+EXE_DIR   =  /mnt/n194
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/725304.1.wp15
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20304
+
+Your job started at Tue Jul 25 13:24:37 EDT 2017 on host n194 in /mnt/n194/725304qhan
+Submission directory is /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=1 on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n194/active_jobs/725304.1/pe_hostfile /opt/mpich2/intel/14.0/
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n192
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n187
+n187
+startmpich2.sh: check for smpd daemons (1 of 10)
+rsh n194 /opt/mpich2/intel/14.0//bin/smpd -port 20304 -d 0
+rsh n192 /opt/mpich2/intel/14.0//bin/smpd -port 20304 -d 0
+rsh n188 /opt/mpich2/intel/14.0//bin/smpd -port 20304 -d 0
+rsh n187 /opt/mpich2/intel/14.0//bin/smpd -port 20304 -d 0
+startmpich2.sh: missing smpd on n194
+startmpich2.sh: missing smpd on n192
+startmpich2.sh: missing smpd on n188
+startmpich2.sh: missing smpd on n187
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n194
+startmpich2.sh: found running smpd on n192
+startmpich2.sh: found running smpd on n188
+startmpich2.sh: found running smpd on n187
+startmpich2.sh: got all 4 of 4 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Tue Jul 25 13:42:16 EDT 2017

@@ -1,0 +1,39 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  737552
+JOB_NAME  =  test
+QUEUE     =  wp04
+NSLOTS    =  1
+NHOSTS    =  1
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/DDMC/2dHubbard
+
+EXE_HOST  =  n69
+NFS_HOST  =  n69
+EXE_DIR   =  /mnt/n69
+OUT_DIR   =  /tmp
+TMP_DIR   =  /tmp/737552.1.wp04
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  22552
+rcp: /mnt/wk06/qhan/projects/DDMC/2dHubbard/C_Integration: not a plain file
+rcp: /mnt/wk06/qhan/projects/DDMC/2dHubbard/code_dev: not a plain file
+Failure to rcp files!
+
+Your job started at Mon Apr 2 17:50:37 EDT 2018 on host n69 in /mnt/n69/737552qhan
+Submission directory is /mnt/wk06/qhan/projects/DDMC/2dHubbard on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n69/active_jobs/737552.1/pe_hostfile /opt/mpich2/intel/14.0/
+n69
+startmpich2.sh: check for smpd daemons (1 of 10)
+rsh n69 /opt/mpich2/intel/14.0//bin/smpd -port 22552 -d 0
+startmpich2.sh: missing smpd on n69
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n69
+startmpich2.sh: got all 1 of 1 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Mon Apr 2 17:53:31 EDT 2018

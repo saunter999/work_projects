@@ -1,0 +1,1 @@
+/opt/mpich2/intel/14.0/bin/mpiexec -n 120 -machinefile /tmp/724640.1.wp02/machines -port 24640 -env OMP_NUM_THREADS 1 -env LD_LIBRARY_PATH /opt/intel/mkl/lib/intel64/:/opt/intel/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/

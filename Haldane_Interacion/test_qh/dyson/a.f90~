@@ -1,0 +1,24 @@
+Program main
+       Implicit none
+       Integer :: i,j,tau
+       double precision :: su=0,k1,k2,pi=3.1415926,e1
+       Character(len=40)::File_1
+       File_1='data'
+       OPEN(1,File=File_1,status='replace')
+       
+       Do tau=1,6
+       su=0
+       Do i=1,8
+       Do j=1,8
+        k1=2*pi*i/8-pi
+        k2=2*pi*j/8-pi
+        e1=-2*(cos(k1)+cos(k2))  
+        su=su+ (1-1/(1+exp(0.6*e1)))*exp(-e1*0.1)
+       enddo
+       enddo
+       write(1,*) tau,su/64
+       enddo
+     
+       Close(1)    
+  
+      End Program

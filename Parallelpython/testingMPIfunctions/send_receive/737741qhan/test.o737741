@@ -1,0 +1,30 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  737741
+JOB_NAME  =  test
+QUEUE     =  wp08
+NSLOTS    =  60
+NHOSTS    =  5
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/Parallelpython/testingMPIfunctions
+
+EXE_HOST  =  n89
+EXE_DIR   =  /mnt/n89
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/737741.1.wp08
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+pe_hostfile = /opt/sge6/spool/n89/active_jobs/737741.1/pe_hostfile
+PORT      =  22741
+rcp: /mnt/wk06/qhan/projects/Parallelpython/testingMPIfunctions/send_array: not a plain file
+rcp: /mnt/wk06/qhan/projects/Parallelpython/testingMPIfunctions/send_receive: not a plain file
+Failure to rcp files!
+
+Your job started at Wed Apr 4 17:48:22 EDT 2018 on host n89 in /mnt/n89/737741qhan
+Submission directory is /mnt/wk06/qhan/projects/Parallelpython/testingMPIfunctions on host rupc08
+-----------------------------------------------------------------------------------------
+Your job finished at Wed Apr 4 17:48:23 EDT 2018

@@ -1,0 +1,5 @@
+log(Zatom)=585.378
+Acceptance ratio: add/rm=0.257036  mv=0.50024 number of accepted steps=1311225 sign at finish 1
+acceptance add/rm for orbital [0]=0.442925 acceptance  move  for orbital [0]=0.0952422 
+acceptance add/rm for orbital [1]=0.439198 acceptance  move  for orbital [1]=0.0955107 
+t_add=39.01 t_rm=14.1 t_mv=8.27 t_accept=23.2 t_measure=13.33 t_trial1=5 t_trial2=27.67 t_trial3=5.47 t_g=0.04 t_f=0.1 t_nj=0.23 t_fgf=12.63

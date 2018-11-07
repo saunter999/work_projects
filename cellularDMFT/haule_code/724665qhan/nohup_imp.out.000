@@ -1,0 +1,117 @@
+Hello World! I am 0 of 70
+Input parameters are:
+fDelta=Delta.inp
+fcix=hubbard_U_6_normal.cix
+mu=3
+beta=100
+U=0
+M=10000000
+Ntau=600
+Nmax=50
+nom=120
+nomD=0
+nomv=0
+nomb=100
+nOm=0
+PChangeOrder=0.9
+PMove=0
+PlocalMoves=0
+tsample=200
+tsampleFast=10
+warmup=0
+CleanUpdate=100000000
+minF=1e-08
+minM=1e-15
+minD=0
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=1000000
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=1
+som=3
+PreciseP=1
+sderiv=0.05
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+fastFilesystem=0
+SampleTransitionP=0
+SaveStatus=1
+Segment=0
+PMove corrected to 1
+WARNING In non-segment case, you should check that S mode and G mode give the same result, otherwise please avoid S mode.
+WARNING: You have mode S to sample the self-energy, but did not provide the Coulomb interaction tensor in the cix file. Will not sample Sigma!
+mode=GH
+sampling with projection to SVD functions is turned on
+svd_lmax=25
+svd_L=10
+svd_x0=0.005
+svd_Nw=500
+svd_Ntau=600
+iseed=0 in rank 0
+setup time=0.051079
+svd time=1.16536
+last singular value=2.23361e-05
+Old status retrieved with sign=1 and determinants 0:0.000145889 1:2.65232 2:5.09797e-12 3:3.61149e-08 4:1.96667e-13 5:-7.75592e-09 6:-0.000523937 7:34.1207 
+common::Segment=0
+Nmax resized from 450 to 560
+Nmax resized from 560 to 692
+   500000 0     nf=0.9771    <Sz>=-0.008943   <s>=0.6426     chiS0=0.1958        chiD=71.62          Epot=-0.195      Ekin=-2.391     
+t_add=5.1 t_rm=4.71 t_mv=6.85 t_accept=9.4 t_measure=3.14 t_trial1=0.68 t_trial2=1.54 t_trial3=4.5 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+  1000000 0     nf=0.9809    <Sz>=-0.007386   <s>=0.5431     chiS0=0.2941        chiD=72.19          Epot=-0.1605     Ekin=-2.364     
+t_add=9.93 t_rm=8.82 t_mv=13.61 t_accept=18.77 t_measure=6.25 t_trial1=1.38 t_trial2=2.92 t_trial3=8.43 t_g=0
+  1500000 0     nf=0.9824    <Sz>=-0.003387   <s>=0.4448     chiS0=0.2483        chiD=72.41          Epot=-0.1589     Ekin=-2.359     
+t_add=15.11 t_rm=13.89 t_mv=20.39 t_accept=28.61 t_measure=9.47 t_trial1=2.06 t_trial2=4.38 t_trial3=13.12 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+  2000000 0     nf=0.9861    <Sz>=-0.003881   <s>=0.4248     chiS0=0.2851        chiD=72.96          Epot=-0.1445     Ekin=-2.303     
+t_add=20.33 t_rm=18.75 t_mv=26.92 t_accept=37.54 t_measure=12.12 t_trial1=2.76 t_trial2=5.91 t_trial3=18.15 t_g=0
+  2500000 0     nf=0.9857    <Sz>=-0.002278   <s>=0.3953     chiS0=0.255         chiD=72.9           Epot=-0.164      Ekin=-2.291     
+t_add=25.07 t_rm=23.4 t_mv=33.34 t_accept=46.7 t_measure=15.18 t_trial1=3.47 t_trial2=7.49 t_trial3=22 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+  3000000 0     nf=0.9868    <Sz>=-0.002422   <s>=0.391      chiS0=0.2356        chiD=73.06          Epot=-0.1664     Ekin=-2.262     
+t_add=31.27 t_rm=28.08 t_mv=39.27 t_accept=56.15 t_measure=18.12 t_trial1=4.22 t_trial2=8.91 t_trial3=26.73 t_g=0
+  3500000 0     nf=0.9868    <Sz>=-0.004288   <s>=0.3905     chiS0=0.2438        chiD=73.06          Epot=-0.1726     Ekin=-2.237     
+t_add=36.65 t_rm=32.84 t_mv=45.18 t_accept=65.3 t_measure=20.71 t_trial1=5.03 t_trial2=10.29 t_trial3=30.94 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+  4000000 0     nf=0.9865    <Sz>=-0.002708   <s>=0.3948     chiS0=0.2354        chiD=73.02          Epot=-0.1762     Ekin=-2.232     
+t_add=42.29 t_rm=37.42 t_mv=52.22 t_accept=75.66 t_measure=23.27 t_trial1=5.76 t_trial2=11.73 t_trial3=35.21 t_g=0
+  4500000 0     nf=0.9874    <Sz>=-0.002711   <s>=0.393      chiS0=0.2532        chiD=73.15          Epot=-0.1794     Ekin=-2.211     
+t_add=47.29 t_rm=41.85 t_mv=57.88 t_accept=83.81 t_measure=25.96 t_trial1=6.41 t_trial2=13.4 t_trial3=39.34 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+  5000000 0     nf=0.9879    <Sz>=-0.0007436   <s>=0.3871     chiS0=0.2844        chiD=73.22          Epot=-0.1856     Ekin=-2.198     
+t_add=52.79 t_rm=46.47 t_mv=63.86 t_accept=92.71 t_measure=28.57 t_trial1=7.03 t_trial2=14.95 t_trial3=43.97 t_g=0
+  5500000 0     nf=0.9885    <Sz>=0.000754   <s>=0.3837     chiS0=0.2726        chiD=73.32          Epot=-0.1857     Ekin=-2.185     
+t_add=57.12 t_rm=51.25 t_mv=69.93 t_accept=101.3 t_measure=30.99 t_trial1=7.65 t_trial2=16.21 t_trial3=48.38 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+  6000000 0     nf=0.9891    <Sz>=-0.000291   <s>=0.396      chiS0=0.3005        chiD=73.4           Epot=-0.1873     Ekin=-2.178     
+t_add=62.14 t_rm=55.55 t_mv=75.67 t_accept=109.7 t_measure=33.77 t_trial1=8.23 t_trial2=17.61 t_trial3=52.65 t_g=0
+  6500000 0     nf=0.9885    <Sz>=0.0007643   <s>=0.4046     chiS0=0.3136        chiD=73.31          Epot=-0.192      Ekin=-2.181     
+t_add=67.16 t_rm=59.82 t_mv=81.95 t_accept=119 t_measure=36.92 t_trial1=8.79 t_trial2=19.14 t_trial3=56.4 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+  7000000 0     nf=0.9888    <Sz>=0.001596   <s>=0.4117     chiS0=0.3099        chiD=73.35          Epot=-0.184      Ekin=-2.185     
+t_add=71.73 t_rm=63.76 t_mv=88.12 t_accept=127.7 t_measure=39.66 t_trial1=9.45 t_trial2=20.57 t_trial3=59.84 t_g=0
+  7500000 0     nf=0.9885    <Sz>=0.001614   <s>=0.4239     chiS0=0.3114        chiD=73.31          Epot=-0.1833     Ekin=-2.195     
+t_add=76.83 t_rm=67.77 t_mv=94.32 t_accept=136.6 t_measure=42.85 t_trial1=9.99 t_trial2=22.03 t_trial3=63.94 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+  8000000 0     nf=0.9881    <Sz>=0.003037   <s>=0.4311     chiS0=0.325         chiD=73.26          Epot=-0.181      Ekin=-2.206     
+t_add=81.09 t_rm=71.83 t_mv=100.2 t_accept=145 t_measure=46.07 t_trial1=10.69 t_trial2=23.26 t_trial3=67.2 t_g=0
+  8500000 0     nf=0.9876    <Sz>=0.00229    <s>=0.4417     chiS0=0.3159        chiD=73.18          Epot=-0.1797     Ekin=-2.219     
+t_add=86.1 t_rm=76.05 t_mv=106.8 t_accept=154.3 t_measure=49.49 t_trial1=11.51 t_trial2=24.44 t_trial3=71.39 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+  9000000 0     nf=0.9877    <Sz>=0.001393   <s>=0.4423     chiS0=0.3169        chiD=73.2           Epot=-0.1732     Ekin=-2.227     
+t_add=90.59 t_rm=79.67 t_mv=112.5 t_accept=161.9 t_measure=52.66 t_trial1=12.12 t_trial2=25.83 t_trial3=75.06 t_g=0
+  9500000 0     nf=0.9873    <Sz>=0.000238   <s>=0.4477     chiS0=0.311         chiD=73.14          Epot=-0.1737     Ekin=-2.234     
+t_add=94.9 t_rm=83.53 t_mv=118.7 t_accept=170.8 t_measure=56.23 t_trial1=12.56 t_trial2=27.05 t_trial3=78.54 t_g=0
+Global flip succeeded: P=1 ratioD=1 ms=1
+ 10000000 0     nf=0.9874    <Sz>=-0.0001911   <s>=0.4501     chiS0=0.3068        chiD=73.15          Epot=-0.1712     Ekin=-2.244     
+t_add=99.58 t_rm=87.52 t_mv=125.5 t_accept=180.4 t_measure=59.7 t_trial1=13.18 t_trial2=28.36 t_trial3=82.13 t_g=0

@@ -1,0 +1,39 @@
+Program main
+    Implicit none
+       Integer :: posx,posy,momx,momy,i
+       double precision :: kx,ky,pi=3.14159,beta=0.6
+       double precision :: kx0=0,ky0,en
+       double complex   :: BareG(64)=(0,0),BareGk=(0,0)
+       Character(len=40)::File_1
+       File_1='data'
+       OPEN(1,File=File_1,status='replace')
+  
+       Do posx=0,7
+       Do posy=0,7
+       DO momx=0,7  
+       Do momy=0,7 
+           kx=2*pi*momx/8
+           ky=2*pi*momy/8
+           !print *, kx
+           en=-2*(cos(kx)+cos(ky))
+           !print *, posx*8+posy+1
+           BareG(posx*8+posy+1)=BareG(posx*8+posy+1)+exp((0,1)*(posx*kx+posy*ky))/(1+exp(Beta*en))
+       enddo
+       enddo
+       BareG(posx*8+posy+1)=BareG(posx*8+posy+1)/64
+       enddo
+       enddo
+       !print *, BareG(1)   
+       Do i=1,120
+          ky0= -3.14+i*0.1
+          BareGk=(0,0)
+       Do posx=0,7
+       Do posy=0,7
+          BareGk=BareGk+BareG(posx*8+posy+1)*exp((0,-1)*(ky0*posy))
+       Enddo
+       Enddo
+       write(1,*) ky0,real(BareGk)
+       enddo
+End Program
+
+ 

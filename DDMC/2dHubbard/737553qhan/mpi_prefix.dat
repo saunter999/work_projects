@@ -1,0 +1,1 @@
+/opt/mpich2/intel/14.0/bin/mpiexec -port 22553 -np 1 -machinefile /tmp/737553.1.wp04/machines -env OMP_NUM_THREADS 1 -envlist LD_LIBRARY_PATH,SCRATCH,WIEN_DMFT_ROOT,PYTHONPATH,WIENROOT

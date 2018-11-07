@@ -1,0 +1,14 @@
+# Input file for continuous time quantum Monte Carlo
+nom 200.0 	# number of Matsubara frequency points to sample
+svd_lmax 30 	# number of SVD functions to project the solution
+tsample 300 	# how often to record the measurements
+aom 1 	# number of frequency points to determin high frequency tail
+M 5000000.0 	# Number of Monte Carlo steps
+beta 100.0 	# Inverse temperature
+U 12.0 	# Coulomb repulsion (F0)
+maxNoise 1e+100 	# maximum allowed noise is large in simple run
+exe /opt/mpich2/intel/14.0/bin/mpiexec -n 60 -machinefile /tmp/725271.1.wp12/machines -port 20271 -env OMP_NUM_THREADS 1 -env LD_LIBRARY_PATH /opt/intel/mkl/lib/intel64/:/opt/intel/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/ ./ctqmc 	# Path to executable
+mu 2.64957671282 	# Chemical potential
+mode SM 	# S stands for self-energy sampling, M stands for high frequency moment tail
+Delta Delta.inp 	# Input bath function hybridization
+cix singleband.imp 	# Input file with atomic state

@@ -1,0 +1,97 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725231
+JOB_NAME  =  test11
+QUEUE     =  wp10
+NSLOTS    =  50
+NHOSTS    =  5
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/singlesiteDMFT/2dsquare/n=1/U11/continurun
+
+EXE_HOST  =  n158
+NFS_HOST  =  n158
+EXE_DIR   =  /mnt/n158
+OUT_DIR   =  /tmp
+TMP_DIR   =  /tmp/725231.1.wp10
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20231
+
+Your job started at Mon Jul 24 19:04:35 EDT 2017 on host n158 in /mnt/n158/725231qhan
+Submission directory is /mnt/wk06/qhan/projects/singlesiteDMFT/2dsquare/n=1/U11/continurun on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n158/active_jobs/725231.1/pe_hostfile /opt/mpich2/intel/14.0/
+n158
+n158
+n158
+n158
+n158
+n158
+n158
+n158
+n158
+n158
+n158
+n159
+n159
+n159
+n159
+n159
+n159
+n159
+n159
+n159
+n159
+n159
+n159
+n161
+n161
+n161
+n161
+n161
+n161
+n161
+n161
+n161
+n161
+n161
+n161
+n151
+n151
+n151
+n151
+n151
+n151
+n151
+n151
+n151
+n151
+n151
+n151
+n162
+n162
+n162
+startmpich2.sh: check for smpd daemons (1 of 10)
+rsh n158 /opt/mpich2/intel/14.0//bin/smpd -port 20231 -d 0
+rsh n159 /opt/mpich2/intel/14.0//bin/smpd -port 20231 -d 0
+rsh n161 /opt/mpich2/intel/14.0//bin/smpd -port 20231 -d 0
+rsh n151 /opt/mpich2/intel/14.0//bin/smpd -port 20231 -d 0
+rsh n162 /opt/mpich2/intel/14.0//bin/smpd -port 20231 -d 0
+startmpich2.sh: missing smpd on n158
+startmpich2.sh: missing smpd on n159
+startmpich2.sh: missing smpd on n161
+startmpich2.sh: missing smpd on n151
+startmpich2.sh: missing smpd on n162
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n158
+startmpich2.sh: found running smpd on n159
+startmpich2.sh: found running smpd on n161
+startmpich2.sh: found running smpd on n151
+startmpich2.sh: found running smpd on n162
+startmpich2.sh: got all 5 of 5 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Mon Jul 24 19:19:24 EDT 2017

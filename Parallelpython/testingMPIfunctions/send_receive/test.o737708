@@ -1,0 +1,26 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  737708
+JOB_NAME  =  test
+QUEUE     =  wp02
+NSLOTS    =  60
+NHOSTS    =  6
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/Parallelpython/send_receive
+
+EXE_HOST  =  n29
+EXE_DIR   =  /mnt/scr/n29
+OUT_DIR   =  /tmp
+TMP_DIR   =  /tmp/737708.1.wp02
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  22708
+
+Your job started at Wed Apr 4 16:26:37 EDT 2018 on host n29 in /mnt/scr/n29/737708qhan
+Submission directory is /mnt/wk06/qhan/projects/Parallelpython/send_receive on host rupc08
+-----------------------------------------------------------------------------------------
+Your job finished at Wed Apr 4 16:26:39 EDT 2018

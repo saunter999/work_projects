@@ -1,0 +1,33 @@
+#!/bin/bash
+#set -x
+########################################################################
+# SUN Grid Engine job wrapper
+# parallel job on opteron queue
+########################################################################
+#$ -N sgntest 
+#$ -pe mpi2_14  1
+#$ -q wp04
+#$ -j y
+#$ -M qhan@physics.rutgers.edu
+#$ -m e
+#$ -v WIEN_DMFT_ROOT,WIENROOT,LD_LIBRARY_PATH
+########################################################################
+####################################################################
+# DON'T remove the following line!
+source $TMPDIR/sge_init.sh
+########################################################################
+source ~/.bashrc
+export SMPD_OPTION_NO_DYNAMIC_HOSTS=1
+export OMP_NUM_THREADS=1
+export SCRATCH="."
+export LD_LIBRARY_PATH=/opt/intel/mkl/lib/intel64/:/opt/intel/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:$LD_LIBRARY_PATH
+
+
+##mpi_prefix="/opt/mpich2/intel/14.0/bin/mpiexec  -n $NSLOTS  -machinefile $TMPDIR/machines -port $port"  ##used for dmftw2k2016
+mpi_prefix="/opt/mpich2/intel/14.0/bin/mpiexec -port $port -np $NSLOTS -machinefile $TMPDIR/machines -env OMP_NUM_THREADS 1 -envlist LD_LIBRARY_PATH,SCRATCH,WIEN_DMFT_ROOT,PYTHONPATH,WIENROOT"
+echo $mpi_prefix > mpi_prefix.dat
+
+cp $TMPDIR/machines xmachines
+
+ 
+./2dhub.py > nohup.dat 2>&1

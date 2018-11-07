@@ -1,0 +1,95 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725317
+JOB_NAME  =  test-0.8
+QUEUE     =  wp15
+NSLOTS    =  50
+NHOSTS    =  4
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4
+
+EXE_HOST  =  n188
+EXE_DIR   =  /mnt/n188
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/725317.1.wp15
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20317
+rcp: /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4/725313qhan: not a plain file
+Failure to rcp files!
+
+Your job started at Tue Jul 25 15:44:22 EDT 2017 on host n188 in /mnt/n188/725317qhan
+Submission directory is /mnt/wk06/qhan/projects/singlesiteDMFT/1dchain/generalfilling/U=4 on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n188/active_jobs/725317.1/pe_hostfile /opt/mpich2/intel/14.0/
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n188
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n187
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n194
+n192
+n192
+startmpich2.sh: check for smpd daemons (1 of 10)
+rsh n188 /opt/mpich2/intel/14.0//bin/smpd -port 20317 -d 0
+rsh n187 /opt/mpich2/intel/14.0//bin/smpd -port 20317 -d 0
+rsh n194 /opt/mpich2/intel/14.0//bin/smpd -port 20317 -d 0
+rsh n192 /opt/mpich2/intel/14.0//bin/smpd -port 20317 -d 0
+startmpich2.sh: missing smpd on n188
+startmpich2.sh: missing smpd on n187
+startmpich2.sh: missing smpd on n194
+startmpich2.sh: missing smpd on n192
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n188
+startmpich2.sh: found running smpd on n187
+startmpich2.sh: found running smpd on n194
+startmpich2.sh: found running smpd on n192
+startmpich2.sh: got all 4 of 4 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Tue Jul 25 16:06:25 EDT 2017

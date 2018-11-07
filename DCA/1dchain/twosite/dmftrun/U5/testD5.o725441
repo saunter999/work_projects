@@ -1,0 +1,111 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725441
+JOB_NAME  =  testD5
+QUEUE     =  wp12
+NSLOTS    =  60
+NHOSTS    =  5
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun
+
+EXE_HOST  =  n180
+EXE_DIR   =  /mnt/n180
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/725441.1.wp12
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20441
+rcp: /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun/725439qhan: not a plain file
+rcp: /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun/725440qhan: not a plain file
+rcp: /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun/U5: not a plain file
+rcp: /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun/test: not a plain file
+Failure to rcp files!
+
+Your job started at Wed Jul 26 22:29:33 EDT 2017 on host n180 in /mnt/n180/725441qhan
+Submission directory is /mnt/wk06/qhan/projects/DCA/1dchain/twosite/dmftrun on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n180/active_jobs/725441.1/pe_hostfile /opt/mpich2/intel/14.0/
+n180
+n180
+n180
+n180
+n180
+n180
+n180
+n180
+n180
+n180
+n180
+n180
+n168
+n168
+n168
+n168
+n168
+n168
+n168
+n168
+n168
+n168
+n168
+n168
+n174
+n174
+n174
+n174
+n174
+n174
+n174
+n174
+n174
+n174
+n174
+n174
+n166
+n166
+n166
+n166
+n166
+n166
+n166
+n166
+n166
+n166
+n166
+n166
+n183
+n183
+n183
+n183
+n183
+n183
+n183
+n183
+n183
+n183
+n183
+n183
+startmpich2.sh: check for smpd daemons (1 of 10)
+startmpich2.sh: missing smpd on n180
+startmpich2.sh: missing smpd on n168
+rsh n166 /opt/mpich2/intel/14.0//bin/smpd -port 20441 -d 0
+rsh n180 /opt/mpich2/intel/14.0//bin/smpd -port 20441 -d 0
+rsh n168 /opt/mpich2/intel/14.0//bin/smpd -port 20441 -d 0
+rsh n174 /opt/mpich2/intel/14.0//bin/smpd -port 20441 -d 0
+rsh n183 /opt/mpich2/intel/14.0//bin/smpd -port 20441 -d 0
+startmpich2.sh: missing smpd on n174
+startmpich2.sh: missing smpd on n166
+startmpich2.sh: missing smpd on n183
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n180
+startmpich2.sh: found running smpd on n168
+startmpich2.sh: found running smpd on n174
+startmpich2.sh: found running smpd on n166
+startmpich2.sh: found running smpd on n183
+startmpich2.sh: got all 5 of 5 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Wed Jul 26 22:43:37 EDT 2017

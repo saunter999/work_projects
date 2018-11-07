@@ -1,0 +1,28 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  737695
+JOB_NAME  =  test
+QUEUE     =  wp12
+NSLOTS    =  56
+NHOSTS    =  5
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/Parallelpython
+
+EXE_HOST  =  n170
+EXE_DIR   =  /mnt/n170
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/737695.1.wp12
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  22695
+rcp: /mnt/wk06/qhan/projects/Parallelpython/737694qhan: not a plain file
+Failure to rcp files!
+
+Your job started at Wed Apr 4 15:17:07 EDT 2018 on host n170 in /mnt/n170/737695qhan
+Submission directory is /mnt/wk06/qhan/projects/Parallelpython on host rupc08
+-----------------------------------------------------------------------------------------
+Your job finished at Wed Apr 4 15:17:09 EDT 2018

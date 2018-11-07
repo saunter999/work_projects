@@ -1,0 +1,27 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  737750
+JOB_NAME  =  test
+QUEUE     =  wp08
+NSLOTS    =  180
+NHOSTS    =  13
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/Parallelpython/Mc_integration
+
+EXE_HOST  =  n96
+EXE_DIR   =  /mnt/n96
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/737750.1.wp08
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+pe_hostfile = /opt/sge6/spool/n96/active_jobs/737750.1/pe_hostfile
+PORT      =  22750
+
+Your job started at Wed Apr 4 18:13:52 EDT 2018 on host n96 in /mnt/n96/737750qhan
+Submission directory is /mnt/wk06/qhan/projects/Parallelpython/Mc_integration on host rupc08
+-----------------------------------------------------------------------------------------
+Your job finished at Wed Apr 4 18:13:54 EDT 2018

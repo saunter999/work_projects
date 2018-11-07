@@ -1,0 +1,29 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  737694
+JOB_NAME  =  test
+QUEUE     =  wp08
+NSLOTS    =  56
+NHOSTS    =  4
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/Parallelpython
+
+EXE_HOST  =  n91
+EXE_DIR   =  /mnt/n91
+OUT_DIR   =  /scratch
+TMP_DIR   =  /tmp/737694.1.wp08
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+pe_hostfile = /opt/sge6/spool/n91/active_jobs/737694.1/pe_hostfile
+PORT      =  22694
+rcp: /mnt/wk06/qhan/projects/Parallelpython/737637qhan: not a plain file
+Failure to rcp files!
+
+Your job started at Wed Apr 4 15:14:38 EDT 2018 on host n91 in /mnt/n91/737694qhan
+Submission directory is /mnt/wk06/qhan/projects/Parallelpython on host rupc08
+-----------------------------------------------------------------------------------------
+Your job finished at Wed Apr 4 15:14:40 EDT 2018

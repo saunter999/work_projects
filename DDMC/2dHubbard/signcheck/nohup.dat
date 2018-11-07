@@ -1,0 +1,20 @@
+Occupation number of H0 per spin is:
+0.620435222183
+
+calculating Grand potential for H0...
+
+calculating Grand potential correction at order 1
+
+calculating Grand potential correction at order 2
+Nitt= 1000000
+Nitt= 2333333
+Nitt= 3666666
+Nitt= 4999999
+Nitt= 6333332
+Nitt= 7666665
+
+Grand canonical potential order by order is 
+[-2.26669044  0.76987973  0.        ]
+
+Total canonical poetential is
+-1.49681071372

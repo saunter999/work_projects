@@ -1,0 +1,152 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  725235
+JOB_NAME  =  test1.1
+QUEUE     =  wp04
+NSLOTS    =  60
+NHOSTS    =  8
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/projects/singlesiteDMFT/2dsquare/generalfilling/n1.1
+
+EXE_HOST  =  n47
+NFS_HOST  =  caip02s
+EXE_DIR   =  /mnt/p02
+OUT_DIR   =  /tmp
+TMP_DIR   =  /tmp/725235.1.wp04
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  20235
+
+Your job started at Mon Jul 24 20:16:04 EDT 2017 on host n47 in /mnt/p02/725235qhan
+Submission directory is /mnt/wk06/qhan/projects/singlesiteDMFT/2dsquare/generalfilling/n1.1 on host rupc08
+-----------------------------------------------------------------------------------------
+-catch_rsh /opt/sge6/spool/n47/active_jobs/725235.1/pe_hostfile /opt/mpich2/intel/14.0/
+n47
+n47
+n47
+n47
+n47
+n47
+n47
+n47
+n55
+n55
+n55
+n55
+n55
+n55
+n55
+n55
+n42
+n42
+n42
+n42
+n42
+n42
+n42
+n42
+n73
+n73
+n73
+n73
+n73
+n73
+n73
+n73
+n62
+n62
+n62
+n62
+n62
+n62
+n62
+n62
+n50
+n50
+n50
+n50
+n50
+n50
+n50
+n50
+n63
+n63
+n63
+n63
+n63
+n63
+n63
+n63
+n51
+n51
+n51
+n51
+rsh n47 /opt/mpich2/intel/14.0//bin/smpd -port 20235 -d 0
+rsh n55 /opt/mpich2/intel/14.0//bin/smpd -port 20235 -d 0
+rsh n73 /opt/mpich2/intel/14.0//bin/smpd -port 20235 -d 0
+rsh n42 /opt/mpich2/intel/14.0//bin/smpd -port 20235 -d 0
+startmpich2.sh: check for smpd daemons (1 of 10)
+rsh n62 /opt/mpich2/intel/14.0//bin/smpd -port 20235 -d 0
+rsh n50 /opt/mpich2/intel/14.0//bin/smpd -port 20235 -d 0
+rsh n63 /opt/mpich2/intel/14.0//bin/smpd -port 20235 -d 0
+rsh n51 /opt/mpich2/intel/14.0//bin/smpd -port 20235 -d 0
+startmpich2.sh: missing smpd on n47
+startmpich2.sh: missing smpd on n55
+startmpich2.sh: missing smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: missing smpd on n62
+startmpich2.sh: missing smpd on n50
+startmpich2.sh: missing smpd on n63
+startmpich2.sh: missing smpd on n51
+startmpich2.sh: check for smpd daemons (2 of 10)
+startmpich2.sh: found running smpd on n47
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n63
+startmpich2.sh: found running smpd on n51
+startmpich2.sh: check for smpd daemons (3 of 10)
+startmpich2.sh: found running smpd on n47
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n63
+startmpich2.sh: found running smpd on n51
+startmpich2.sh: check for smpd daemons (4 of 10)
+startmpich2.sh: found running smpd on n47
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n63
+startmpich2.sh: found running smpd on n51
+startmpich2.sh: check for smpd daemons (5 of 10)
+startmpich2.sh: found running smpd on n47
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: missing smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n63
+startmpich2.sh: found running smpd on n51
+startmpich2.sh: check for smpd daemons (6 of 10)
+startmpich2.sh: found running smpd on n47
+startmpich2.sh: found running smpd on n55
+startmpich2.sh: found running smpd on n42
+startmpich2.sh: found running smpd on n73
+startmpich2.sh: found running smpd on n62
+startmpich2.sh: found running smpd on n50
+startmpich2.sh: found running smpd on n63
+startmpich2.sh: found running smpd on n51
+startmpich2.sh: got all 8 of 8 nodes
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Mon Jul 24 20:49:41 EDT 2017

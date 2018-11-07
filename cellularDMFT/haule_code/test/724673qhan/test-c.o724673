@@ -1,0 +1,239 @@
+
+USER      =  qhan
+HOMEDIR   =  /home/qhan
+JOB_ID    =  724673
+JOB_NAME  =  test-c
+QUEUE     =  wp04
+NSLOTS    =  1
+NHOSTS    =  1
+
+SUB_HOST  =  rupc08
+SUB_DIR   =  /mnt/wk06/qhan/plaquette-DMFT/test
+
+EXE_HOST  =  n55
+NFS_HOST  =  n55
+EXE_DIR   =  /mnt/n55
+OUT_DIR   =  /tmp
+TMP_DIR   =  /tmp/724673.1.wp04
+
+INFO      =  Files larger than 100MB will be compressed to reduce the network load.
+INFO2     =  Do NOT remove this file while job is running!
+
+PORT      =  24673
+
+Your job started at Tue Jul 11 22:18:51 EDT 2017 on host n55 in /mnt/n55/724673qhan
+Submission directory is /mnt/wk06/qhan/plaquette-DMFT/test on host rupc08
+-----------------------------------------------------------------------------------------
++ echo -catch_rsh /opt/sge6/spool/n55/active_jobs/724673.1/pe_hostfile /opt/mpich2/intel/14.0/
+-catch_rsh /opt/sge6/spool/n55/active_jobs/724673.1/pe_hostfile /opt/mpich2/intel/14.0/
++ SLEEPTIME=5
++ RETRIES=10
++ catch_rsh=0
++ catch_hostname=0
++ '[' 3 -gt 0 ']'
++ case "$1" in
++ catch_rsh=1
++ shift
++ '[' 2 -gt 0 ']'
++ case "$1" in
++ break
+++ basename /opt/sge6/mpich2_smpd/startmpich2.sh
++ me=startmpich2.sh
++ '[' 2 -lt 2 ']'
++ pe_hostfile=/opt/sge6/spool/n55/active_jobs/724673.1/pe_hostfile
++ MPICH2_ROOT=/opt/mpich2/intel/14.0/
++ export MPICH2_ROOT
++ '[' '!' -x /opt/sge6/mpich2_smpd/bin/lx26-amd64/start_mpich2 ']'
++ '[' '!' -x /opt/mpich2/intel/14.0//bin/smpd ']'
++ '[' '!' -r /opt/sge6/spool/n55/active_jobs/724673.1/pe_hostfile ']'
++ machines=/tmp/724673.1.wp04/machines
++ PeHostfile2MachineFile /opt/sge6/spool/n55/active_jobs/724673.1/pe_hostfile
++ cat /opt/sge6/spool/n55/active_jobs/724673.1/pe_hostfile
++ read line
+++ echo n55 1 wp04@n55 UNDEFINED
+++ cut -f1 '-d '
+++ cut -f1 -d.
++ host=n55
+++ echo n55 1 wp04@n55 UNDEFINED
+++ cut -f2 '-d '
++ nslots=1
++ i=1
++ '[' 1 -le 1 ']'
++ echo n55
+++ expr 1 + 1
++ i=2
++ '[' 2 -le 1 ']'
++ read line
++ cat /tmp/724673.1.wp04/machines
+n55
++ '[' 1 = 1 ']'
++ rsh_wrapper=/opt/sge6/mpich2_smpd/rsh
++ '[' '!' -x /opt/sge6/mpich2_smpd/rsh ']'
++ rshcmd=rsh
++ case "$ARC" in
++ ln -s /opt/sge6/mpich2_smpd/rsh /tmp/724673.1.wp04/rsh
++ hash -r
++ '[' 0 = 1 ']'
++ port=24673
+++ cat /tmp/724673.1.wp04/machines
+++ uniq
++ for host in '`cat $machines | uniq`'
++ /opt/sge6/mpich2_smpd/bin/lx26-amd64/start_mpich2 -n n55 /opt/mpich2/intel/14.0//bin/smpd 24673
++ actual_retry=1
++ '[' 1 -le 10 ']'
++ echo 'startmpich2.sh: check for smpd daemons (1 of 10)'
+startmpich2.sh: check for smpd daemons (1 of 10)
++ numhosts=0
+++ cat /tmp/724673.1.wp04/machines
+++ uniq
++ for host in '`cat $machines | uniq`'
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24673 -status n55
+++ head -n 1
+++ cut -f 1 -d ' '
+rsh n55 /opt/mpich2/intel/14.0//bin/smpd -port 24673 -d 0
++ '[' no == smpd ']'
++ echo 'startmpich2.sh: missing smpd on n55'
+startmpich2.sh: missing smpd on n55
++ '[' 1 -eq 0 ']'
++ sleep 5
++ (( actual_retry += 1 ))
++ '[' 2 -le 10 ']'
++ echo 'startmpich2.sh: check for smpd daemons (2 of 10)'
+startmpich2.sh: check for smpd daemons (2 of 10)
++ numhosts=0
+++ cat /tmp/724673.1.wp04/machines
+++ uniq
++ for host in '`cat $machines | uniq`'
+++ head -n 1
+++ /opt/mpich2/intel/14.0//bin/smpd -port 24673 -status n55
+++ cut -f 1 -d ' '
++ '[' smpd == smpd ']'
++ (( numhosts += 1 ))
++ echo 'startmpich2.sh: found running smpd on n55'
+startmpich2.sh: found running smpd on n55
++ '[' 1 -eq 1 ']'
++ echo 'startmpich2.sh: got all 1 of 1 nodes'
+startmpich2.sh: got all 1 of 1 nodes
++ exit 0
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+Have HB1
+Number of operators needed 0  0
+Reading data with 2000 entries
+-catch_rsh /opt/mpich2/intel/14.0/
+Your job finished at Wed Jul 12 05:57:47 EDT 2017

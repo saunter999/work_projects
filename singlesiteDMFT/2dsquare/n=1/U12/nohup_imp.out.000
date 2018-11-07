@@ -1,0 +1,93 @@
+Hello World! I am 0 of 60
+Input parameters are:
+fDelta=Delta.inp
+fcix=singleband.imp
+mu=6
+beta=100
+U=12
+M=5000000
+Ntau=600
+Nmax=50
+nom=200
+nomD=0
+nomv=0
+nomb=100
+nOm=0
+PChangeOrder=0.9
+PMove=0.3
+PlocalMoves=0
+tsample=300
+tsampleFast=10
+warmup=0
+CleanUpdate=100000000
+minF=1e-10
+minM=1e-15
+minD=0
+Ncout=500000
+Naver=50000000000
+Gf=Gf.out
+Sig=Sig.out
+TwoKinks=0
+GlobalFlip=-1
+treshold=1e-10
+SampleGtau=-1
+ReduceComm=0
+Ncorrect=-1
+aom=1
+som=3
+PreciseP=1
+sderiv=0.01
+minDeltat=1e-07
+SampleSusc=0
+SampleVertex=-1
+maxNoise=1e+100
+AllRead=0
+LazyTrace=1
+fastFilesystem=0
+SampleTransitionP=0
+SaveStatus=1
+Segment=1
+mode=SM
+sampling with projection to SVD functions is turned on
+svd_lmax=30
+svd_L=10
+svd_x0=0.005
+svd_Nw=500
+svd_Ntau=600
+iseed=0 in rank 0
+setup time=0.050303
+svd time=1.16243
+last singular value=2.17526e-06
+Old status retrieved with sign=1 and determinants 0:84.2906 1:-240.847 
+common::Segment=1
+Nmax resized from 92 to 130
+   500000 0     nf=0.9999    <Sz>=0.4831     <s>=1          chiS0=23.34         chiD=0.001415       Epot=0.1864      Ekin=-0.3646    
+t_add=1.16 t_rm=0.41 t_mv=0.12 t_accept=0.25 t_measure=0.23 t_trial1=0.45 t_trial2=1.03 t_trial3=0.24 t_g=0 t_f=0 t_nj=0.03 t_fgf=0.18
+  1000000 0     nf=1         <Sz>=0.4834     <s>=1          chiS0=23.37         chiD=0.001427       Epot=0.1863      Ekin=-0.36      
+t_add=2.31 t_rm=0.9 t_mv=0.27 t_accept=0.48 t_measure=0.39 t_trial1=0.74 t_trial2=2.05 t_trial3=0.55 t_g=0 t_f=0 t_nj=0.03 t_fgf=0.34
+  1500000 0     nf=1         <Sz>=0.4833     <s>=1          chiS0=23.36         chiD=0.001452       Epot=0.1856      Ekin=-0.3585    
+t_add=3.47 t_rm=1.35 t_mv=0.39 t_accept=0.73 t_measure=0.59 t_trial1=1.05 t_trial2=2.99 t_trial3=0.73 t_g=0.01 t_f=0 t_nj=0.04 t_fgf=0.51
+  2000000 0     nf=0.9999    <Sz>=0.4834     <s>=1          chiS0=23.37         chiD=0.001407       Epot=0.1844      Ekin=-0.3579    
+t_add=4.62 t_rm=1.91 t_mv=0.54 t_accept=1.05 t_measure=0.81 t_trial1=1.31 t_trial2=4.07 t_trial3=0.95 t_g=0.01 t_f=0.02 t_nj=0.05 t_fgf=0.7
+Nmax resized from 130 to 176
+  2500000 0     nf=0.9999    <Sz>=0.4834     <s>=1          chiS0=23.37         chiD=0.001403       Epot=0.1842      Ekin=-0.3582    
+t_add=5.88 t_rm=2.35 t_mv=0.68 t_accept=1.27 t_measure=1 t_trial1=1.73 t_trial2=5.14 t_trial3=1.23 t_g=0.01 t_f=0.03 t_nj=0.06 t_fgf=0.85
+  3000000 0     nf=0.9999    <Sz>=0.4834     <s>=1          chiS0=23.37         chiD=0.001403       Epot=0.1836      Ekin=-0.3567    
+t_add=7.04 t_rm=2.84 t_mv=0.84 t_accept=1.52 t_measure=1.16 t_trial1=1.97 t_trial2=6.17 t_trial3=1.5 t_g=0.01 t_f=0.03 t_nj=0.08 t_fgf=0.98
+  3500000 0     nf=0.9999    <Sz>=0.4835     <s>=1          chiS0=23.38         chiD=0.001398       Epot=0.1835      Ekin=-0.3562    
+t_add=8.21 t_rm=3.29 t_mv=1.02 t_accept=1.77 t_measure=1.4 t_trial1=2.27 t_trial2=7.15 t_trial3=1.79 t_g=0.01 t_f=0.04 t_nj=0.09 t_fgf=1.18
+  4000000 0     nf=0.9999    <Sz>=0.4835     <s>=1          chiS0=23.38         chiD=0.00139        Epot=0.1833      Ekin=-0.3566    
+t_add=9.38 t_rm=3.81 t_mv=1.18 t_accept=1.94 t_measure=1.68 t_trial1=2.5 t_trial2=8.27 t_trial3=2.03 t_g=0.02 t_f=0.04 t_nj=0.1 t_fgf=1.4
+  4500000 0     nf=1         <Sz>=0.4835     <s>=1          chiS0=23.38         chiD=0.001405       Epot=0.1847      Ekin=-0.3567    
+t_add=10.52 t_rm=4.25 t_mv=1.34 t_accept=2.14 t_measure=1.97 t_trial1=2.92 t_trial2=9.28 t_trial3=2.28 t_g=0.03 t_f=0.04 t_nj=0.11 t_fgf=1.64
+  5000000 0     nf=1         <Sz>=0.4834     <s>=1          chiS0=23.37         chiD=0.00141        Epot=0.1856      Ekin=-0.3575    
+t_add=11.77 t_rm=4.76 t_mv=1.46 t_accept=2.43 t_measure=2.21 t_trial1=3.18 t_trial2=10.29 t_trial3=2.56 t_g=0.05 t_f=0.04 t_nj=0.12 t_fgf=1.85
+Continuing with HB1 after 0 operators read!
+n_ab=[0.4355, 0.5645, ]
+n_tot=1
+s_oo[0]=6.774 
+S_1[0]=35.4 
+s_oo[1]=5.227 
+S_1[1]=35.4 
+s_oo=[6,]
+s_n1=[35.4,]
